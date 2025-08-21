@@ -111,7 +111,8 @@ class TaskManager:
 # -----------------------------
 # Main Program
 # -----------------------------
-if __name__ == "__main__":
+if __name__ == "__main__" : 
+    print("Finished")   # ✅ แก้เป็น double quote ปกติ
     file_storage = FileTaskStorage("my_tasks.txt")
     manager = TaskManager(file_storage)
 
